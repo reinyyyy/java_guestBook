@@ -1,0 +1,18 @@
+package board.bean;
+
+import java.util.Date;
+
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+
+@Component
+@Data
+public class BoardDTO {
+	private int seq;
+	private String name;
+	private String email;
+	private String subject;
+	private String content;
+	private Date logtime;
+}
